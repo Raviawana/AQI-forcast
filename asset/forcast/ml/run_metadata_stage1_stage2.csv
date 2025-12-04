@@ -1,0 +1,12 @@
+,value
+target_column,latitude
+data_path,/Users/ravigurjar/Desktop/temp/sample/dessertation/data/cleaned/final_df.csv
+result_dir,/Users/ravigurjar/Desktop/temp/sample/dessertation/asset/forcast/ml
+n_rows_stage1,7814
+n_rows_stage2,7813
+train_rows_stage1,6252
+test_rows_stage1,1562
+train_rows_stage2,6251
+test_rows_stage2,1562
+models_saved_stage1,"['LinearRegression_stage1.joblib', 'Ridge_stage1.joblib', 'Lasso_stage1.joblib', 'SVR_stage1.joblib', 'RandomForest_stage1.joblib']"
+models_saved_stage2,"['LinearRegression_stage2.joblib', 'Ridge_stage2.joblib', 'Lasso_stage2.joblib', 'SVR_stage2.joblib', 'RandomForest_stage2.joblib']"

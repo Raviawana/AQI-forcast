@@ -1,0 +1,49 @@
+{
+  "best_stage1": {
+    "model": "RandomForest",
+    "MAE": 0.0508106198462337,
+    "RMSE": 0.0587941401574313,
+    "R2": -0.0193657358341095
+  },
+  "best_stage2": {
+    "model": "RandomForest",
+    "MAE": 0.0504323500421019,
+    "RMSE": 0.0585380413371881,
+    "R2": -0.0105046556209393
+  },
+  "best_deep": {
+    "model": "LSTM",
+    "MAE": 4.936599288722095,
+    "RMSE": 4.936942883172147,
+    "R2": -7197.689250266132
+  },
+  "comparisons": {
+    "stage1_ml_best_rmse": 0.0587941401574313,
+    "stage1_ml_vs_naive_pct": 27.761616798967573,
+    "stage2_ml_best_rmse": 0.0585380413371881,
+    "stage2_ml_vs_naive_pct": 29.426397365070883,
+    "deep_best_rmse": 4.936942883172147
+  },
+  "residual_summaries": {
+    "ml_stage2_RandomForest": {
+      "MAE": "0.050",
+      "RMSE": "0.059",
+      "R2": "-0.011"
+    },
+    "pred_lstm": {
+      "MAE": "4.937",
+      "RMSE": "4.937",
+      "R2": "-7197.689"
+    },
+    "pred_cnn": {
+      "MAE": "114.209",
+      "RMSE": "114.209",
+      "R2": "-3852479.029"
+    },
+    "pred_transformer": {
+      "MAE": "5.969",
+      "RMSE": "5.970",
+      "R2": "-10523.914"
+    }
+  }
+}

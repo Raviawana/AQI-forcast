@@ -1,0 +1,11 @@
+,value
+data_path,/Users/ravigurjar/Desktop/temp/sample/dessertation/data/cleaned/final_df.csv
+result_dir,/Users/ravigurjar/Desktop/temp/sample/dessertation/asset/forcast/deep
+window_size,48
+horizon,1
+batch_size,32
+epochs,100
+n_train,5452
+n_val,778
+n_test,1557
+models,"['LSTM.h5', 'CNN.h5', 'Transformer.h5']"
